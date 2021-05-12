@@ -78,7 +78,7 @@ pip install -r requirements.txt
 
 At the end of this project, I was able to visualize the results of my trained Generator to see how it performed; my generated samples looked like fairly realistic faces with small amounts of noise.
 
-![Image of Generated Faces](https://github.com/nanditaradha/Project_Face_Generation/blob/master/Output_Generated_New_Images/generated_faces.png)
+![Image of Generated Faces](./Output_Generated_New_Images/generated_faces.png)
 
 ## Conclusion
 
