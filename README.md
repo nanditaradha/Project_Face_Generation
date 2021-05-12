@@ -14,12 +14,11 @@ DCGAN is one of the popular and successful network design for GAN. It mainly com
 
 ## Project Overview
 
-In this project, I defined and trained a DCGAN on a CelebA dataset. 
+In this project, I defined and trained a DCGAN on a CelebA dataset which contains over 200,000 celebrity faces with annotations. 
 
-## Goal
+## Project Goal
 The goal of this project is to get a generator network to generate _new_ images of faces using Generative Adversarial Networks (GANs) that look as realistic as possible. 
 The model is trained on the CelebFaces Attributes Dataset (CelebA).
-
 ![Image of Training Dataset](https://github.com/nanditaradha/Project_Face_Generation/blob/master/assets/processed_face_data.png)
 
 ### Installation
