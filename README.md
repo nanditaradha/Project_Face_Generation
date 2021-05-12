@@ -7,7 +7,7 @@ Udacity Deep Learning Nanodegree Project #4
 
 ## About Deep Convolutional Generative Adversarial Networks(DCGAN)
 
-DCGAN is one of the popular and successful network design for GAN. It mainly composes of convolution layers without max pooling or fully connected layers. It uses convolutional stride and transposed convolution for the downsampling and the upsampling. The figure below is the network design for the generator and discrminator.
+DCGAN is one of the popular and successful network design for GAN. It mainly composes of convolution layers without max pooling or fully connected layers. It uses convolutional stride and transposed convolution for the downsampling and the upsampling. The figure below is the network design for the generator and discriminator.
 
 ![DCGAN-Generator & Discrimator](./DCGAN/DCGAN.png)
 
@@ -95,6 +95,10 @@ pip install -r requirements.txt
 |Deconv2|256|128|BY Default=True|
 |Deconv3|128|64|BY Default=True|
 |Deconv4|64|3|False|
+
+- The figure below is the network design for the generator and discriminator of my DCGAN model.
+
+![My DCGAN Model](./DCGAN/My_DCGAN_model_architecture.png)
 
 ### Model Results
 
