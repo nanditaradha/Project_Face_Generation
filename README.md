@@ -98,7 +98,7 @@ pip install -r requirements.txt
 
 - The figure below is the network design for the generator and discriminator of my DCGAN model.
 
-![My DCGAN Model](./DCGAN/My_DCGAN_model_architecture.png)
+![My DCGAN Model Design](./DCGAN/My_DCGAN_model architecture.png)
 
 ### Model Results
 
