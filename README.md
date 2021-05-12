@@ -22,6 +22,8 @@ The model is trained on the CelebFaces Attributes Dataset (CelebA).
 
 ![Image of Training Dataset](./assets/processed_face_data.png)
 
+# Project Requirements
+
 ### Installation
 
 1. For running this project on your local computer, first make sure you have git by typing `git --version` on cmd, if version number appears that means you have git installed. Go ahead and clone the repository:
@@ -74,16 +76,37 @@ pip install -r requirements.txt
 - Training Loss Calculation
 - Generator Samples From Training 
 
-### Results
+### My DCGAN Model Architecture
 
-At the end of this project, I was able to visualize the results of my trained Generator to see how it performed; my generated samples looked like fairly realistic faces with small amounts of noise.
+### Model - Discriminator
+| Layer | Input Dimension | Output Dimension | Batch Normalization|
+|-------|-----------------|------------------|-------------|
+|Conv1|3|64|False|
+|Conv2|64|128|By Default=True|
+|Conv3|128|256|BY Default=True|
+|Conv4|256|512|BY Default=True|
+|FC|2048|1|False|
+
+### Model - Generator
+| Layer | Input Dimension | Output Dimension | Batch Normalization|
+|-------|-----------------|------------------|-------------|
+|FC|100|2048|False|
+|Deconv1|512|256|BY Default=True|
+|Deconv2|256|128|BY Default=True|
+|Deconv3|128|64|BY Default=True|
+|Deconv4|64|3|False|
+
+### Model Results
+
+At the end of this project, I was able to visualize the results of my trained Generator to see how it performed, my generated samples looked like having fairly realistic faces with small amounts of noise.
 
 ![Image of Generated Faces](./Output_Generated_New_Images/generated_faces.png)
 
 ## Conclusion
 
 The results show that the newly generated images have captured the faces which are found to be of low resolution.To improve the resolution capacity of the faces in the images
-the defined parameters have to be tweeked thereby increasing more number of convolutional layers to achieve better results that can suit our eye.
+the defined parameters have to be tweeked, thereby increasing more number of convolutional layers to achieve better results that can suit our eye.
+
 
 
 
