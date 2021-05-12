@@ -13,7 +13,7 @@ In this project, I defined and trained a DCGAN on a CelebA dataset.
 The goal of this project is to get a generator network to generate _new_ images of faces using Generative Adversarial Networks (GANs) that look as realistic as possible. 
 The model is trained on the CelebFaces Attributes Dataset (CelebA).
 
-![Image of Celebrity Dataset](https://github.com/nanditaradha/Project_Face_Generation/blob/master/assets/processed_face_data.png)
+![Image of Training Dataset](https://github.com/nanditaradha/Project_Face_Generation/blob/master/assets/processed_face_data.png)
 
 ### Installation
 
@@ -64,14 +64,15 @@ jupyter notebook dlnd_face_generation.ipynb
 	- Initialize The Weights Of Your Network
 	- Build Complete Network
 - Discriminator And Generator Loss Calculation
-- Set Optimizers
-- Perform Training
-- Calculation Of Training Loss
+- Optimizers Setting
+- Training Performance
+- Training Loss Calculation
 - Generator Samples From Training 
 
 ### Results
 
 At the end of this project, I was able to visualize the results of my trained Generator to see how it performed; my generated samples looked like fairly realistic faces with small amounts of noise.
+
 ![Image of Generated Faces](https://github.com/nanditaradha/Face-Generation/blob/master/assets/Generated_faces.png)
 
 ## Conclusion
