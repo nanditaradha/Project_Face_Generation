@@ -56,7 +56,7 @@ jupyter notebook dlnd_face_generation.ipynb
 ### Contents
 
 - Loading Dataset & Pre-Processed 
-* [CelebFaces Attributes Dataset (CelebA)](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be7eb6f_processed-celeba-small/processed-celeba-small.zip)
+    - [CelebFaces Attributes Dataset (CelebA)](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be7eb6f_processed-celeba-small/processed-celeba-small.zip)
 - Create A DataLoader
 - Define The Model
 	- Discriminator
