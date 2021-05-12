@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 ### Contents
 
-- Loading Dataset & Pre-Processed 
+- Pre-Processed Data
     - [CelebFaces Attributes Dataset (CelebA)](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be7eb6f_processed-celeba-small/processed-celeba-small.zip)
 - Create A DataLoader
 - Define The Model
@@ -71,8 +71,8 @@ pip install -r requirements.txt
 	- Initialize The Weights Of Your Network
 	- Build Complete Network
 - Discriminator And Generator Loss Calculation
-- Optimizers Setting
-- Training Performance
+- Optimizers
+- Training 
 - Training Loss Calculation
 - Generator Samples From Training 
 
@@ -102,7 +102,7 @@ pip install -r requirements.txt
 
 ### Model Results
 
-At the end of this project, I was able to visualize the results of my trained Generator to see how it performed, my generated samples looked like having fairly realistic faces with small amounts of noise.
+At the end of this project, I was able to visualize the results of my trained Generator to see how it performed, my generated samples looked like having fairly realistic faces with small amount of noise.
 
 ![Image of Generated Faces](./Output_Generated_New_Images/generated_faces.png)
 
