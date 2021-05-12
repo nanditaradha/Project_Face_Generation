@@ -85,3 +85,4 @@ The results show that the newly generated images have captured the faces which a
 the defined parameters have to be tweeked thereby increasing more number of convolutional layers to achieve better results that can suit our eye.
 
 
+
