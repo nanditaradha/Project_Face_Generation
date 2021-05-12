@@ -7,16 +7,16 @@ Udacity Deep Learning Nanodegree Project #4
 
 ## About Deep Convolutional Generative Adversarial Networks(DCGAN)
 
-DCGAN is one of the popular and successful network design for GAN. It mainly composes of convolution layers without max pooling or fully connected layers. It uses convolutional stride and transposed convolution for the downsampling and the upsampling. The figure below is the network design for the generator.
+DCGAN is one of the popular and successful network design for GAN. It mainly composes of convolution layers without max pooling or fully connected layers. It uses convolutional stride and transposed convolution for the downsampling and the upsampling. The figure below is the network design for the generator and discrminator.
 
-<img src="https://raw.githubusercontent.com/carpedm20/DCGAN-tensorflow/master/DCGAN.png">
-
+![DCGAN-Generator & Discrimator](https://github.com/nanditaradha/Project_Face_Generation/blob/master/DCGAN/DCGAN.png)
 
 ## Project Overview
 
 In this project, I defined and trained a DCGAN on a CelebA dataset which contains over 200,000 celebrity faces with annotations. 
 
 ## Project Goal
+
 The goal of this project is to get a generator network to generate _new_ images of faces using Generative Adversarial Networks (GANs) that look as realistic as possible. 
 The model is trained on the CelebFaces Attributes Dataset (CelebA).
 ![Image of Training Dataset](https://github.com/nanditaradha/Project_Face_Generation/blob/master/assets/processed_face_data.png)
@@ -77,8 +77,11 @@ pip install -r requirements.txt
 
 At the end of this project, I was able to visualize the results of my trained Generator to see how it performed; my generated samples looked like fairly realistic faces with small amounts of noise.
 
-![Image of Generated Faces](https://github.com/nanditaradha/Face-Generation/blob/master/assets/Generated_faces.png)
+![Image of Generated Faces](https://github.com/nanditaradha/Face-Generation/blob/master/assets/generated_faces.png)
 
 ## Conclusion
-DCGAN is one of the most popular and succesful network design for GAN. It mainly composes of convolution layers without max pooling or fully connected layers. It uses strided convolutions and transposed convolutions for the downsampling and the upsampling respectively.
+
+The results show that the newly generated images have captured the faces which are found to be of low resolution.To improve the resolution capacity of the faces in the images
+the defined parameters have to be tweeked thereby increasing more number of convolutional layers to achieve better results that can suit our eye.
+
 
