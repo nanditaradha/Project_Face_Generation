@@ -9,7 +9,7 @@ Udacity Deep Learning Nanodegree Project #4
 
 DCGAN is one of the popular and successful network design for GAN. It mainly composes of convolution layers without max pooling or fully connected layers. It uses convolutional stride and transposed convolution for the downsampling and the upsampling. The figure below is the network design for the generator and discrminator.
 
-![DCGAN-Generator & Discrimator](https://github.com/nanditaradha/Project_Face_Generation/blob/master/DCGAN/DCGAN.png)
+![DCGAN-Generator & Discrimator](./DCGAN/DCGAN.png)
 
 ## Project Overview
 
@@ -20,7 +20,7 @@ In this project, I defined and trained a DCGAN on a CelebA dataset which contain
 The goal of this project is to get a generator network to generate _new_ images of faces using Generative Adversarial Networks (GANs) that look as realistic as possible. 
 The model is trained on the CelebFaces Attributes Dataset (CelebA).
 
-![Image of Training Dataset](https://github.com/nanditaradha/Project_Face_Generation/blob/master/assets/processed_face_data.png)
+![Image of Training Dataset](./assets/processed_face_data.png)
 
 ### Installation
 
@@ -78,7 +78,7 @@ pip install -r requirements.txt
 
 At the end of this project, I was able to visualize the results of my trained Generator to see how it performed; my generated samples looked like fairly realistic faces with small amounts of noise.
 
-![Image of Generated Faces](https://github.com/nanditaradha/Face-Generation/blob/master/assets/generated_faces.png)
+![Image of Generated Faces](https://github.com/nanditaradha/Project_Face_Generation/blob/master/Output_Generated_New_Images/generated_faces.png)
 
 ## Conclusion
 
