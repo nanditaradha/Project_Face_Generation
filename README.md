@@ -32,7 +32,7 @@ The model is trained on the CelebFaces Attributes Dataset (CelebA).
 git clone https://github.com/nanditaradha/Project_Face_Generation.git
 cd Project_Face_Generation
 ```
-2. Now please open the file with filename: dlnd_face_generation.ipynb
+2. Now open the file with filename: dlnd_face_generation.ipynb
 
 ### Dependencies
 
