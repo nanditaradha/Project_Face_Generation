@@ -33,7 +33,6 @@ cd Project_Face_Generation
 ```
 conda create --name face_generation python=3.6
 activate face_generation
-
 ```
 - Install Pytorch 
 ```
