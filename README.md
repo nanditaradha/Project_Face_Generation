@@ -5,6 +5,13 @@ Udacity Deep Learning Nanodegree Project #4
 * It is implemented by using PyTorch library.
 * You can refer to Original Udacity repo [here](https://github.com/udacity/deep-learning-v2-pytorch); in project-face-generation folder.
 
+## About Deep Convolutional Generative Adversarial Networks(DCGAN)
+
+DCGAN is one of the popular and successful network design for GAN. It mainly composes of convolution layers without max pooling or fully connected layers. It uses convolutional stride and transposed convolution for the downsampling and the upsampling. The figure below is the network design for the generator.
+
+<img src="https://raw.githubusercontent.com/carpedm20/DCGAN-tensorflow/master/DCGAN.png">
+
+
 ## Project Overview
 
 In this project, I defined and trained a DCGAN on a CelebA dataset. 
