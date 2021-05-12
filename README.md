@@ -49,7 +49,7 @@ jupyter notebook dlnd_face_generation.ipynb
 
 - Install a few required pip packages, which are specified in the requirements text file.
 
-`pip install -r requirements.txt`
+ `pip install -r requirements.txt`
 
 ## Project Information
 
